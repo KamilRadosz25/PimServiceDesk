@@ -1,0 +1,6 @@
+.task-item__date{
+    display:flex;
+    align-items: center;
+    margin-right:1.5rem;
+    font-size:0.9rem;
+}

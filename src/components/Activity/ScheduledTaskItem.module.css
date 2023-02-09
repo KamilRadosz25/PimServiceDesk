@@ -1,0 +1,14 @@
+.taskItem{
+    display:flex;
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    width:2.5rem;
+    height:2.5rem;
+    margin:0 0.5rem;
+}
+span{
+    font-weight: bold;
+}

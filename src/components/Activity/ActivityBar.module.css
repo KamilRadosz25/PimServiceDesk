@@ -1,0 +1,6 @@
+.bar{
+    display:flex;
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+}

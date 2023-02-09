@@ -1,0 +1,17 @@
+.siderbarnav-list{
+    list-style-type: none;
+    padding:1rem;
+}
+ul li{
+    margin:2rem;
+}
+li i{
+    border:0;
+    color: #aaa;
+}
+.sidebarnav-lastButton{
+    background-color: rgba(84,73,241);
+    color:white;
+    padding-right:0.2rem;
+    border-radius:8px;
+}

@@ -1,0 +1,54 @@
+.task-item{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    margin:1rem auto;
+    border-radius: 16px;
+    gap:0.5rem;
+
+
+}
+.task-item__content{
+    display:flex;
+    justify-content: space-between;
+}
+.task-item__description{
+    display:flex;
+    margin-left: 1.5rem;
+    margin-top:0.7rem;
+    flex-direction:column;
+}
+
+.task-item__status{
+    display:flex;
+    margin-left:1.5rem;
+    font-size:0.7rem;
+    gap: 0 0.5rem;
+    margin-bottom:0.3rem;
+}
+.task-item__status div{
+    border-radius:10px;
+    padding:0 0.3rem;
+
+}
+p{
+    font-size:0.8rem;
+    margin-top:0.1rem;
+    margin-left:0.4rem;
+}
+h3{
+    font-size:0.8rem;
+    margin:0.3rem;
+}
+.task-item__priority{
+    display:flex;
+    background-color:pink;
+    color:red;
+    border:1px solid pink;
+    
+}
+.task-item__numberTicket{
+    display:flex;
+    border:1px solid #ddd;
+}
