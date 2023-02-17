@@ -1,19 +1,24 @@
-import React from 'react';
-import Avatarimage from '../../icons/default_avatar.png';
-import classes from './ScheduledTaskItem.module.css';
+import React from "react";
+import Avatarimage from "../../icons/default_avatar.png";
+import classes from "./ScheduledTaskItem.module.css";
 
-const ScheduledTaskItem = () => {
+const ScheduledTaskItem = (props) => {
+  const { name, date } = props;
   return (
     <div className={classes.taskItem}>
-        <img src={Avatarimage} alt="Service technician IT" />
-        <div>
+      <img
+        className={classes.taskItem_img}
+        src={Avatarimage}
+        alt="Service technician IT"
+      />
+      <div>
         <p>
-        <span>Adam Nowak</span> zaplanował spotkanie dla <span> MP Balicka</span>
+          <span>{name}</span> zaplanował spotkanie dla <span> MP Balicka</span>
         </p>
-        <div> 1 sty. 2023</div>
-        </div>
+        <div> {date}</div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ScheduledTaskItem
+export default ScheduledTaskItem;

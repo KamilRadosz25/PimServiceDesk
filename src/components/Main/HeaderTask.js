@@ -19,12 +19,12 @@ const HeaderTask = () => {
           <input
             type="text"
             size="6"
-            value="search"
             className={classes["header-main__nav__search"]}
           ></input>
         </form>
         <button className={classes["header-main__filter"]}>
-          Filter <i class="fa-solid fa-arrow-down-wide-short fa-xs"></i></button>
+          Filter <i class="fa-solid fa-arrow-down-wide-short fa-xs"></i>
+        </button>
       </div>
     </div>
   );
